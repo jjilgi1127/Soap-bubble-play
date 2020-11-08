@@ -14,15 +14,15 @@ function draw(){
   noStroke();
   background(149,219,255);
     fill(133,114,250);
-  ellipse(500,300,80,80);
+  ellipse(500,300,90,90);
   fill(149,219,255);
   ellipse(500,300,70,70);
-  
+
   rectMode(CENTER);
   fill(133,114,250);
   rect(500,370,10,70);
 
-  
+
 
   for(var i = 0; i < bubbles.length; i++){
   if(mousePressed){
@@ -33,5 +33,3 @@ function draw(){
   }
   }
 }
-
-
