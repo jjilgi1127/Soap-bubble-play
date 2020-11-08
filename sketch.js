@@ -13,13 +13,13 @@ function mousePressed(){
 function draw(){
   noStroke();
   background(149,219,255);
-    fill(133,114,250);
+  fill(215,95,201);
   ellipse(500,300,90,90);
   fill(149,219,255);
   ellipse(500,300,70,70);
 
   rectMode(CENTER);
-  fill(133,114,250);
+  fill(215,95,201);
   rect(500,370,10,70);
 
 
