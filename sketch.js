@@ -23,7 +23,7 @@ function draw(){
   rect(500,370,10,70);
 
   textSize(20);
-  fill(0, 102, 153,180);
+  fill(0, random(102), 153,180);
   text('Please click on the mouse', 10, 380);
 
 
